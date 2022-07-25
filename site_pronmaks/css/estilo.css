@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+
+p {
+	text-decoration: none;
+}
+
+nav#menu{
+background-color: #fff;
+box-shadow: 0px 0px 10px rgb(113, 180, 201);
+position:fixed;
+top:0px;
+left:0px;
+width: 100%;
+z-index:99;
+}
+
+#btn-acesso{
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-radius: 5px;
+	width: 125px;
+	height: 50px;	
+	background: #ecf3fc;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	border: 3px solid #CCC;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-top: -2px
+}
+
+.home{
+	background-color: #274060;
+	margin-top: 100px;
+}
+
+img#img-carousel{
+	width: 500px;
+	height: 410px;
+
+}
+
+
+div#botaofixo{
+	position: fixed;
+	margin-right: 4%;
+	margin-top: 2px;
+	z-index: 100;
+	}
+div#botaofixo img{
+	height: 70px;
+	width: 170px;
+	margin-top: -50px;
+	}
+
+.servicos{
+	width: 100%;
+	height: 500px;
+  }
+
+#destaques-itens{
+	height: 150px;
+	width: 100%; 
+	background-repeat: no-repeat;
+	background-position:center center;
+	text-align: center;
+}
+
+
+.option-serv{
+	padding:20px;
+	border: solid 1px #E4E5E6;
+	border-radius: 5px;
+	height: 400px;
+	width:30%;
+	float: left;
+  }
+  
+.option-serv:hover{
+	padding:10px;
+	border: solid 1px #E4E5E6;
+	border-radius: 5px;
+	margin-top:-25px;
+	height: 450px;
+	width:35%;
+	z-index:98;
+	box-shadow: 0px 0px 15px #ccc;
+  }
+
+  #base{
+	width: 70%;
+	margin-left:10%;
+  }
+
+#servicos-itens{
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-radius: 5px;
+	width: 500px;
+	height: 250px;	
+	background: #274060;
+	color: #FFF;
+	font-size: 15px;
+	padding: 20px;
+	padding-top: 20px;
+	border: 3px solid #CCC;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#fundo-escuro{
+	color: whitesmoke;
+}
+
+#portaria-itens{
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-radius: 5px;
+	width: 400px;
+	height: 400px;	
+	background: rgba(208, 225, 247, 0.5);
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	padding: 20px;
+	padding-top: 20px;
+	border: 3px solid #CCC;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#sobre-itens{
+
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	padding: 20px;
+	padding-top: 20px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+
+.rodape{
+	background-color: #274060;
+	width: 100%;
+	height: 260px;
+	color: #fff;
+}
+
+/* Pagina moradores.html */
+#img-paginas{
+	height: 150px;
+	width: 200px;
+	background-repeat: no-repeat;
+	background-position:center center;
+	text-align: center;
+}
+#titulo-paginas{
+	margin-top: 40px;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px){
+	.content{width:98%; margin-left:1%; text-align: center;}
+	.menu-web-links{ display:none }
+	#mudar{display:none}
+	#img_1{  display:none  }
+	#img_2{  display:none  }
+	#texto{width: 100%; margin-left: 0px;}
+	.option-serv{width: 94%; margin-left: 3%; padding: 10px;}
+	#base{ width: 100%; margin-left:0px;}
+	.servicos{height:1350px;}
+	#logo-azul{margin-top: -50px; margin-bottom: 30px;  height: }
+	.fundo-coment{width: 98%; margin-left: 1%}
+	#bt-menu-mobile{ display: inline-block; float:right; font-size:30px; margin-top: 20px; margin-right: 10px; color:#1D184B }
+
+	.option-serv:hover{
+		padding:20px;
+		border: solid 1px #E4E5E6;
+		border-radius: 5px;
+		margin-top:-25px;
+		height: 450px;
+		width:100%;
+		z-index:98;
+		box-shadow: 0px 0px 15px #ccc;
+	  }
+
+	.carousel{
+		height: 290px;
+	}
+	.carousel-item{
+		height: 300px;
+	}
+	img#img-carousel{
+		height: 250px;
+	}
+	#destaques{
+		margin-left: 50px;
+	}
+	
+	.servicos-itens{
+		margin-top:700px;
+	}
+	div#portaria-itens{
+		height: 500px;	
+	}
+	#footer{
+		height: 500px;
+	}
+	div#botaofixo img{
+		position: fixed;
+		height: 50px;
+		width: 120px;
+		top: 100%;
+		margin-top: -55px;
+		margin-left: 5px;
+	}
+
+	/*outras paginas*/
+	#titulo-paginas{
+		font-size:29px;
+	}
+
+  }
+  

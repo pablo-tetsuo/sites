@@ -1,0 +1,58 @@
+/* Corpo médico - inicio */
+#corpo-medico{
+  background-color: #FAFAF9;
+}
+#itens_medico{
+  border: 0px solid red;
+  width: 70%;
+  height: 450px;
+}
+#campo-medico{
+	border: 3px solid #153650;
+  width: 100%; 
+  height: 85%;
+  border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #000;
+	border-radius: 20px;
+	background: #FAFAF9;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
+	border: 2px solid #153650;
+}
+#logo-medico{
+  height: 180px; 
+  width: 180px; 
+  margin-top: 15px;
+}
+#titulo-medico{
+	margin-top: 10px;
+	color: #153650;
+	font-weight: bold;
+	font-size: 22px;
+  padding: 2px;
+  height: 20%;
+  font-family: 'Halant-SemiBold';
+}
+#crm-medico{
+  color: #153650;
+  padding: 2px;
+  font-size: 15px;
+  height: 17%;
+  font-family: 'NunitoSans-SemiBold';  
+
+}
+#btn-servicos{
+  background-color: #153650;
+  color: white;
+  font-size: 14px;
+  height: 10%;
+  width: 50%;
+  padding: 3%;
+  border-radius: 5px;
+  font-family: 'NunitoSans-SemiBold';
+}
+#label-medico{
+  font-family: 'NunitoSans-SemiBold';
+}
+/* Corpo médico - fim */

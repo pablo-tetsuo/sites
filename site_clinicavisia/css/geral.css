@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@font-face {
+  src: url(fontes/NunitoSans-Regular.ttf);
+  font-family: 'NunitoSans-Regular';    
+} 
+
+@font-face {
+  src: url(fontes/NunitoSans-SemiBold.ttf);
+  font-family: 'NunitoSans-SemiBold';    
+} 
+
+@font-face {
+  src: url(fontes/Halant-Regular.ttf);
+  font-family: 'Halant-Regular';
+} 
+
+@font-face {
+  src: url(fontes/Halant-SemiBold.ttf);
+  font-family: 'Halant-SemiBold';
+} 
+
+
+body{
+	/*background-color: #FAFAF9;*/
+	background-color: #FAFAF9;
+  font-family: 'NunitoSans-Regular'; 
+}
+
+#titulo{
+   color: #153650;
+   font-family: 'NunitoSans-SemiBold';
+}
+
+#linha{
+	background-color: #ceb166;
+	margin-top: -1px;
+	height: 2px;
+	width: 30%;
+}
+#campo-titulo{
+  width: 50%;
+}
+
+/* TITULOS INTRODUTÓRIOS DE ALGUMAS PÁGINAS */
+#intro{
+	background-size: 100% 100%;
+	margin-top: 60px;
+	width: 100%;
+	height: 300px;
+	}
+#intro_titulos{
+	margin-top: 40px;
+}
+#titulo_intro{
+   color: white;
+   font-size: 70px;
+   font-family: 'Halant-SemiBold';  
+}
+#titulo_intro_2{
+   color: white;
+   font-size: 35px;
+   font-family: 'Halant-Regular';  
+}
+#linha_intro{
+	background-color: #ceb166;
+	margin-top: -1px;
+	height: 5px;
+	width: 30%;
+}
+/* TITULOS INTRODUTÓRIOS DE ALGUMAS PÁGINAS */
+
+#menu_mobile{
+  display: none;
+}
+
+#menu_desktop{
+  display: block;
+}
+
+/* RODA PE / FOOTER - INICIO */
+#footer{
+  background-color: #153650;
+  border: 1px solid #153650;
+  color: white;
+  width: 100%;
+}
+#itens-footer{
+  background-color: #153650;
+  margin-top: 2%;
+  width: 70%;
+}
+#campo-footer_1{
+  background-color: #153650;
+  border: 0px solid red;
+  text-align: justify; 
+  height: 90%;
+}
+#campo-footer_2{
+  background-color: #153650;
+  border: 0px solid red;
+  text-align: justify; 
+  height: 90%;
+}
+#logo-footer{
+  width: 100%;
+}
+#titulo-footer{
+  font-weight: bold;
+  margin-left: 5px;
+}
+#titulo-footer-contatos{
+  font-weight: bold;
+}
+#texto-footer{
+  margin-left: 5px;
+}
+/* RODA PE / FOOTER - Fim */
+
+
+#titulo-tipo-tratamento{
+  height: 70px; 
+  color: white; 
+  background-color: #153650;
+}
+#titulo-tipo-tratamento-conteudo{
+  font-family: 'NunitoSans-SemiBold'; 
+}
+
+
+/*#####################################################################################################################################
+																 CONFIGS PARA MOBILE
+#######################################################################################################################################*/
+/* MOBILE*/
+@media only screen and (max-width: 800px){
+  /* MENU */
+  #menu_mobile{
+    display: block;
+  }
+  
+  #menu_desktop{
+    display: none;
+  }
+
+  /* FOOTER */
+  #campo-footer_2{
+    margin-left: 20px;
+  }
+  #redes-sociais{
+    margin-left: 20px;
+  }
+  
+
+#campo-titulo{
+  width: 100%;
+}
+
+/* TITULOS INTRODUTÓRIOS DE ALGUMAS PÁGINAS */
+#intro{
+	height: 250px;
+	}
+
+#titulo_intro{
+   font-size: 40px
+}
+/* TITULOS INTRODUTÓRIOS DE ALGUMAS PÁGINAS */
+
+
+
+}
+
+/* MONITOR MENOR */
+@media only screen and (max-width: 1200px){
+
+}

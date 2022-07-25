@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* CAROUSEL - SOBRE NOS - INICIO*/
+#fundocarousel{
+background-color: #ECECEC;
+width: 100%; 
+height: 300px;
+}
+#myCarousel{
+height: 400px; 
+width: 70%; 
+margin-top: -300px;
+}
+#item-carousel{
+height: 400px; 
+width: 100%;
+}
+
+/* CAROUSEL - FIM */
+
+/* Carousel 3d - ínicio */
+.carousel-3d-container figure {
+    margin: 0;
+}
+
+.carousel-3d-container figcaption {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    font-size: 12px;
+    /*min-width: 100%;*/
+    box-sizing: border-box;
+}
+/* Carousel 3d - fim */
+
+
+/* Sobre nós -inicio */
+#sobrenos{
+    background-color: #ECECEC;
+}
+#campo-sobrenos{
+    width: 50%;
+}
+#texto-sobrenos{
+    text-align: justify;
+    color: #153650;
+    font-weight: bold;
+    padding: 10px;
+}
+/* fim - Sobre nós*/
+
+/* Carousel 3D da pagina principal*/
+#titulo_sobrenos{
+    display: none;
+}
+
+
+/* Corpo clínico - ÍNICIO*/
+#medico-campo{
+    width: 90%;
+}
+#medico-foto{
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px; 
+    width: 250px;
+    margin-top: 20px;
+    float: right;  
+}
+#titulo-medico{
+    color: #153650;
+    font-weight: bold;
+    float: left;
+}
+#texto-medico{
+    color: #153650;
+    text-align: justify;
+}
+/* Corpo Clínico - Fim */
+
+
+/*#####################################################################################################################################
+                                                                CONFIGS PARA MOBILE
+########################################################################################################################################*/
+/* MOBILE*/
+@media only screen and (max-width: 800px){
+/* sobrenos - inicio*/
+    #sobrenos{
+        width: 100%;
+    }
+    #campo-sobrenos{
+        width: 100%;
+        padding: 2px;
+    }
+/* sobrenos - fim */
+
+}

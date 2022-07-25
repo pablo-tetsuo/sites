@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+body{
+    background-color: #f1f1f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Menu */
+#navbar{
+    margin-top: 10px;
+}
+#item-menu{
+    padding: 20px;
+}
+#item-menu:hover{
+    background-image: linear-gradient(rgb(231, 231, 231) 95%, black 5%);
+}
+#link-menu{
+    color: black;
+    text-decoration: none;
+}
+
+/* Efeito para o sub-menu empreendimentos aparecer*/
+#item-menu:hover #submenu { display: block; }
+	#submenu {
+		display: none;
+		position: absolute;
+	}
+	#submenu li {
+        float: none; 
+    }
+
+/* MEnu - Final */
+
+
+/* Banner */
+.banner{
+    height: 150px;
+    width: auto;
+}
+#titulo-banner{
+    margin-top:0px;
+    color: white;
+    font-size: 70px; 
+    font-weight: bold;
+    text-indent: 20px;
+}
+/* Banner - Final*/
+
+
+/*Rodapé - Footer*/
+#footer{
+    color: black;
+    margin-top: 50px;
+}
+#icone-footer{
+    color: black; 
+    margin-top: 10px;
+}
+#dados-footer{
+    margin: 40px;
+    margin-left: 68px
+}
+#link-menu-footer{
+    color: black;
+    text-decoration: none;
+    text-shadow: 0.1px 0.2px rgb(10, 10, 10);
+}
+#link-menu-footer:hover{
+    color: #f70707;
+}
+#icone-whatsapp{
+    color: black;
+}
+#icone-whatsapp:hover{
+    color:#1ab605;
+}
+#menu-footer{
+    text-align: justify; 
+    margin-top: 40px; 
+    margin-left: 100px;
+}
+#desenvolv{
+    color:black; 
+    font-size: 12px;
+}
+/*Rodapé - Final*/
+
+/* index.html */
+#carousel-index{
+    height: 450px;
+    margin-top: -5px;
+}
+#titulo-emp{
+    font-size: 30px;
+    margin-top: 15px;
+}
+#txt-emp{
+    margin-top: 15px;
+}
+#empreendimentos{
+    margin-top: 40px;
+    background-color:white;
+    padding: 60px;
+}
+#img-emp{
+    width: 300px;
+}
+#option-emp{
+    opacity: 1;
+}
+#option-emp:hover{
+    opacity:0.7;
+}
+
+/* index.html - Final */
+
+
+/* ÁREA Empreendimentos */
+    /* Carousel Empreendimentos */
+    #inicio-emp{
+        margin-top: 20px;
+    }
+    #inicip-txt{
+        font-size: 25px;
+    }
+    #mapa-emp{
+        height: 400px;
+        width: 700px;
+    }
+    #mapa-google{
+        border:0; 
+        width:500px;
+        height:400px;
+        margin-top: -6px;
+    }
+    #carousel-emp{
+        background-color: rgb(245, 245, 250);
+        height: 520px;
+        margin-top: 20px;
+        padding-top: 15px;
+    }
+    #carousel-emp-slides{
+        margin-top: -40px;
+    }
+    #slide-emp{
+        width: 500px; 
+        height: 400px; 
+        margin-top: 30px;
+    }
+    #empreendimentos-fotos{
+        width: 500px;
+    }
+    #slide-foto{
+        background-color: black;
+    }
+    #icon-slide{
+        background-color: black;
+    }
+/* ÁREA Empreendimentos  - FINAL*/
+    
+/* ÁREA do cliente*/
+    .conteudo{
+        width: 40%;
+        margin-top: 10px;
+    }
+    .login{
+        margin-top: 10px;
+    }
+
+/* ÁREA do cliente Final*/
+
+
+
+/* dispositivos Móveis */
+@media only screen and (max-width: 800px){
+    #item-menu{
+        padding: 10px;
+    }
+    /* Banner */
+    .banner{
+    height: 120px;
+   
+    }
+    #titulo-banner{
+    padding: 5%;
+    font-size: 30px;
+    text-align: center;
+    }
+    /* Banner - Final*/
+
+    /* imagem temporaria*/
+	img#img-temp{
+        height: 300px;
+        width: 300px;
+     }
+    /* imagem temporaria - Final */
+
+     /* Roda Pé - Footer */
+     #menu-footer{
+        margin-top: 10px; 
+        margin-left: 100px;
+     }
+
+     /* Roda Pé - Footer - FINAL */
+
+    /* index.html */
+    #carousel-index{
+        height: 250px;
+    }
+    #slide{
+        height: 250px;   
+    }
+    #titulo-emp{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    #txt-emp{
+        margin-top: 20px;
+    }
+    #empreendimentos{
+        margin-top: 10px;
+        background-color:white;
+        padding: 10px;
+    }
+    #img-emp{
+        margin-top: 10px;
+    }
+    /* index.html - Final */
+
+    /* ÁREA Empreendimentos */
+        /* Carousel Empreendimentos */
+        #inicip-txt{
+            font-size: 15px;
+        }
+        #mapa-emp{
+            height: 270px;
+            width: 400px;
+        }
+        #carousel-emp{
+            height: 600px;
+        }
+        #slide-emp{
+            width: 300px; 
+            height: 200px; 
+            margin-top: 30px;
+        }
+        #empreendimentos-fotos{
+            width: 300px;
+        }
+        #mapa-google{
+            width:300px;
+            height:300px;
+        }
+    /* ÁREA Empreendimentos  - FINAL*/
+
+    /* ÁREA do cliente*/
+        .conteudo{
+            width: 80%;
+        }
+        .login{
+            margin-top: 10px;   
+        }
+
+/* ÁREA do cliente Final*/
+  }
+  

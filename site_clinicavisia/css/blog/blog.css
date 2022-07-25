@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+
+/* Carousel 3d - ínicio */
+.carousel-3d-container figure {
+  margin: 0;
+}
+
+.carousel-3d-container figcaption {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  bottom: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  font-size: 12px;
+  /*min-width: 100%;*/
+  box-sizing: border-box;
+}
+/* Carousel 3d - fim */
+
+/* MENU LATERAL BLOG - INICIO */
+#titulo-menublog{
+font-size: 18px; 
+float: left; 
+padding:5px; 
+color: #153650;
+}
+#item-menublog{
+font-size: 15px;
+float: left; 
+text-decoration: none; 
+color:#ceb166;
+}
+#item-menublog-data{
+color: #153650; 
+float: left; 
+font-size: 12px;
+}
+/* MENU LATERAL BLOG - FIM */
+
+/* Blog conteúdo - inicio */
+#data-blog{
+margin-top: 5px; 
+margin-left: 40%; 
+height: 90px; 
+width: 90px;   
+background: white;
+border: 5px solid #FAFAF9;
+}
+#btn_blog{
+background-color:#153650; 
+padding: 5px; 
+color: white;
+width: 100%; 
+border-radius: 1px;
+}
+
+/* Blog conteúdo - fim */

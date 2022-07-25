@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CAROUSEL - INICIO
+#fundocarousel{
+  background-color: #ECECEC;
+  width: 100%; 
+  height: 350px;
+}
+#myCarousel{
+  height: 610px; 
+  width: 70%; 
+  margin-top: -300px;
+}
+#item-carousel{
+  height: 100%; 
+  width: 100%;
+}
+
+/* CAROUSEL - FIM */
+
+
+/*#####################################################################################################################################
+																 CONFIGS PARA MOBILE
+########################################################################################################################################*/
+/* MOBILE*/
+@media only screen and (max-width: 800px){
+  /* CAROUSEL - INICIO*
+  #fundocarousel{
+    height: 200px;
+  }
+  #myCarousel{
+    height: 190px; 
+    width: 100%; 
+    margin-top: -100px;
+  }
+  /* CAROUSEL - FIM */
+  
+}

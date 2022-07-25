@@ -1,0 +1,30 @@
+/* inicio  - Sobre nós */
+#sobrenos{
+  background-color: #ECECEC;
+}
+#campo-sobrenos{
+  width: 50%;
+}
+#texto-sobrenos{
+  text-align: justify;
+  color: #153650;
+  font-weight: bold;
+  padding: 10px;
+}
+/* fim - Sobre nós*/
+
+/*#####################################################################################################################################
+																 CONFIGS PARA MOBILE
+########################################################################################################################################*/
+/* MOBILE*/
+@media only screen and (max-width: 800px){
+  /* sobrenos - inicio*/
+    #sobrenos{
+        width: 100%;
+    }
+    #campo-sobrenos{
+        width: 100%;
+    }
+  /* sobrenos - fim */
+  
+}

@@ -1,0 +1,210 @@
+@charset "UTF-8";
+/* Vídeo - inicio */
+#video-capilar{ 
+	width:40%; 
+	margin-top: -270px;
+}
+#video-capilar-fundo{
+	background-color:#ceb166; 
+	width:100%; 
+	height:200px; 
+	margin-top:100px;
+}
+/* Vídeo - Fim */
+
+/* Botão para pré avaliação - inicio */
+#botaofixo{
+	position: fixed;
+	margin-right: 4%;
+	margin-top: -100px;
+	z-index: 100;
+	width: 100%;
+	}
+#imagem-cabeca-animada{
+	float:right; 
+	width: 100px; 
+	height: 100px; 
+	margin-top: 0px;
+}
+#borda-imagem-animada{
+	border-style: solid; 
+	float:right; 
+	background-color: white; 
+	border-radius:50%; 
+	border-color: #1ed6a2; 
+	border-width: 10px;
+}
+
+/* Botão para pré avaliação - fim */
+
+/* Texto - Video - Inicio */
+#texto-video{
+	width: 50%; 
+	margin-top: 50px; 
+	font-size: 17px; 
+	color: #153650; 
+	text-align: justify; 
+}
+#texto-video-paragrafo{
+	padding-top: 30px;
+}
+/* Texto - Video - Fim */
+
+/* Vantagens - Inicio */
+#vantagens{
+	margin-top: 40px;
+}
+#vantagens-container{
+	width: 50%; 
+	margin-top: 50px; 
+	font-size: 17px; 
+	color: #153650; 
+	text-align: justify;
+}
+#vantagens-paragrafo{
+	padding-top: 20px;
+}
+/* Vantagens - Fim */
+
+/* Procedimentos - Inicio */
+#procedimentos{
+	margin-top: 40px;
+}
+#procedimentos-container{
+	width: 50%; 
+	margin-top: 50px; 
+	font-size: 17px; 
+	color: #153650; 
+	text-align: justify;
+}
+#procedimentos-paragrafo{
+	padding-top: 20px;
+}
+#procedimentos-imagens{
+	width: 80%; 
+	margin-top: 50px;
+}
+/* Procedimentos - Fim */
+
+/* avaliacao - Inicio */
+#avaliacao{
+	margin-top: 40px;
+	display: block;
+}
+#avaliacao-container{
+	width: 50%; 
+	margin-top: 50px; 
+	font-size: 17px; 
+	color: #153650; 
+	text-align: justify;
+}
+#avaliacao-paragrafo{
+	padding-top: 20px;
+}
+/* avaliacao - Fim */
+
+
+#titulo-avaliaco{
+	border-style: solid;
+	border-color:  #ceb166;
+	border-radius: 20px 20px 0px 0px; 
+	border-bottom: 0px; 
+	background-color: #ceb166;
+	color:#153650;
+	font-size: 25px;
+	font-weight: bold;
+}
+#corpo-form{
+	width: 70%; 
+	border-style: solid; 
+	border-radius: 0px 20px 20px 20px;
+	border-color:  #153650;
+	border-width: 1px;
+}
+#prev{
+	background-color: #153650;
+	color: white;
+	width: 100%;
+	height: 50px;
+	border-radius: 0px 0px 0px 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#next{
+	background-color: #153650;
+	color: white;
+	width: 100%;
+	height: 50px;
+	border-radius: 0px 0px 20px 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#submit-col{
+	display:none;
+	background-color: #153650;
+	color: white;
+	width: 100%;
+	height: 50px;
+	border-radius: 0px 0px 20px 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#btn-vazio{
+	display:block;
+	background-color: #153650;
+	color: white;
+	width: 100%;
+	height: 50px;
+	border-radius: 0px 0px 0px 20px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/*#####################################################################################################################################
+																 CONFIGS PARA MOBILE
+#######################################################################################################################################*/
+/* MOBILE*/
+@media only screen and (max-width: 800px){
+	#video-capilar{
+		width:95%; 
+		height: 30%;
+	}
+
+	/* Texto - Video - Inicio */
+	#texto-video{
+		width: 100%;
+	}
+	/* Texto - Video - Fim */
+
+	/* Vantagens - Inicio */
+	#vantagens-container{
+		width: 100%; 
+	}
+	/* Vantagens - Fim */
+
+	/* Procedimentos - Inicio */
+	#procedimentos-container{
+		width: 100%; 
+	}
+	#procedimentos-imagens{
+		width: 100%; 
+		margin-top: 50px;
+	}
+	/* Procedimentos - Fim */
+
+	/* avaliacao - Inicio */
+	#avaliacao-container{
+		width: 100%; 
+	}
+	/* avaliacao - Fim */
+
+	/* avaliacao - formulário- Inicio */
+	#avaliacao{
+		display: none;
+	}
+	#avaliacao_formulario{
+		display: none;
+	}
+	/* avaliacao - formulário- fim */
+}

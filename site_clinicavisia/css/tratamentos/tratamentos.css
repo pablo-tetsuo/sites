@@ -1,0 +1,78 @@
+@charset "UTF-8";
+#trat-categoria{
+    width: 80%;
+}
+#trat-categoria-titulo{
+    margin-top: 20px; 
+    font-size:25px; 
+    color: #153650;
+    font-family: 'NunitoSans-SemiBold'; 
+}
+#tratamentos-col{
+    height: 340px; 
+    margin-top: 5px;
+    display: block;
+}
+#tratamentos-col-vazio{
+    height: 340px; 
+    margin-top: 5px;
+    display: block;
+}
+#campo-tratamentos{
+    border: 0px solid blue; 
+    height: 90%; 
+    width: 100%; 
+    border-radius: 30px; 
+    margin-top:5px;
+}
+#campo-tratamentos:hover{
+    background: white;
+    border: 1px solid #FAFAF9;
+    margin-left: 1px;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+#campo-tratamentos-conteudo{
+    margin-top: 10px;
+}
+#img-tratamentos{
+    width:100px; 
+    height:100px;
+}
+#linha_tratamentos{
+    background-color: #ceb166;
+    margin-top: -1px;
+    height: 3px;
+    width: 40%;
+}
+#titulo_btn_trat{
+    font-family: 'NunitoSans-SemiBold';  
+    color: #153650;
+    margin-top: 30px;
+}
+#subtitulo_btn_trat{
+    color: #153650;
+    font-family: 'NunitoSans-Regular'; 
+}
+#btn_saibamais{
+    margin-top: 35px;
+    padding: 10px;
+    background-color: #153650;
+    color: white;
+    font-size: 14px;
+    height: 10%;
+    width: 50%;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+/*#####################################################################################################################################
+                                                         CONFIGS PARA MOBILE
+#######################################################################################################################################*/
+/* MOBILE*/
+@media only screen and (max-width: 800px){
+#tratamentos-col-vazio{
+display: none;
+}
+}
